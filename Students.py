@@ -4,7 +4,7 @@ import csv
 
 df = pd.read_csv("Marks.csv")
 
-with open("Sleep.csv") as f:
+with open("Marks.csv") as f:
     reader = csv.reader(f)
     data = list(reader)
 
